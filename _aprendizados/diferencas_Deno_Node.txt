@@ -1,0 +1,8 @@
+
+Instalar_pacote:
+  No_Node: npx <comando>,
+  No_Deno: deno run -A npm:<comando>
+
+  startar_projeto_next:
+    No_Node: next dev
+    NO_Deno: deno task dev

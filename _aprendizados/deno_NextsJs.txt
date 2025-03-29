@@ -1,0 +1,25 @@
+docs:
+  funcionamento: o next js precisa de um runtime para funcionar , pode ser o node ou deno .
+
+  instalando: com_runtime: deno, link: ( https://docs-deno-com.translate.goog/examples/next_tutorial/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc )
+
+  Instalar_Novo_Projeto: `deno run -A npm:create-next-app@latest`
+
+  configurar_Projeto:
+    Resumo: Aceite instalar tudo menos turbopack e eslint
+
+  instalar_dependencias: `deno install` # entre na pasta raiz do projeto e instale as dependencias que estao no package.json
+
+  instalacoes_extras : Se pedir vai estar na saida do terminal , no caso pediupra instalar essa : deno install --allow-scripts=npm:sharp@0.33.5
+
+ configuracoes_Extra :[
+  crie um deno.json e add : `
+{
+  "unstable": ["unsafe-proto"]
+}
+`
+ ]
+
+  Startar_projeto: `deno task dev`
+
+  Visualizacao_na_Web: `http://localhost:3000`
